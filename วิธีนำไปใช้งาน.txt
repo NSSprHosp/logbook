@@ -1,0 +1,8 @@
+วิธีนำไปใช้งาน
+
+https://{ชื่อแอคเคาต์}.github.io/{ชื่อโฟลเดอร์}/?page={ที่อยู่ url}
+
+ในโค๊ด google app script ต้องเพิ่มบรรดทัดนี้ ลงในฟังก์ชั่น function doGet()
+
+.addMetaTag('viewport', 'width=device-width, initial-scale=1.0')
+.setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
